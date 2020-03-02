@@ -9,4 +9,11 @@
     -webkit-margin-before: 0;
     margin-left: 50px;
   }
+  a {
+    color: $primary-color;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }

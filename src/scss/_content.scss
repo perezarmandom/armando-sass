@@ -3,10 +3,8 @@
   min-height: 750px;
   min-width: 600px;
   background-color: $primary-color;
-  > * {padding-left: 130px;}
-  li {
-    font-size: 0.85rem;
-  }
+  > * {padding-left: 30px;}
+  > * {font-size: 1rem;}
   h1 {
     font-size: 62px;
     -webkit-margin-before: 0;
@@ -22,5 +20,9 @@
   }
   a:hover {
     text-decoration: underline;
+  }
+  ul {
+    list-style: square;
+    list-style-position: inside;
   }
 }
